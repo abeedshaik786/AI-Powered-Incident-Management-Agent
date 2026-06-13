@@ -1,0 +1,42 @@
+[
+  {
+    "incident_number": "INC1001",
+    "description": "Database connection timeout in production",
+    "priority": "P1",
+    "caller": "Abeed",
+    "assigned_to": "DB Team",
+    "RCA": "High load on database server caused connection pool exhaustion",
+    "created_date": "2026-04-22T10:15:00",
+    "resolved_date": "2026-04-22T11:00:00"
+  },
+  {
+    "incident_number": "INC1002",
+    "description": "API returning 500 error for login service",
+    "priority": "P2",
+    "caller": "Rahul",
+    "assigned_to": "Backend Team",
+    "RCA": "Null pointer exception in authentication module",
+    "created_date": "2026-04-22T09:30:00",
+    "resolved_date": "2026-04-22T10:10:00"
+  },
+  {
+    "incident_number": "INC1003",
+    "description": "Slow response from reporting dashboard",
+    "priority": "P3",
+    "caller": "Sneha",
+    "assigned_to": "Data Team",
+    "RCA": "Inefficient SQL query causing delay",
+    "created_date": "2026-04-21T16:00:00",
+    "resolved_date": "2026-04-21T18:30:00"
+  },
+  {
+  "incident_number": "INC1004",
+  "description": "sfdc_srh_id is coming as null, hence filter removing records",
+  "priority": "P2",
+  "caller": "DataOps Team",
+  "assigned_to": "Data Engineering Team",
+  "RCA": "sfdc_srh_id decommissioned from source system; existing filter in downstream table is causing unintended data exclusion. Filter needs to be removed.",
+  "created_date": "2026-04-22T12:30:00",
+  "resolved_date": "2026-04-22T13:15:00"
+}
+]
