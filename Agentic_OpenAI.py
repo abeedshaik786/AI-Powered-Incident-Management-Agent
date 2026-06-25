@@ -86,7 +86,7 @@ def store_memory(inc):
     })
 
     save_memory(data)
-    print("✅ Stored:", inc["incident_number"])
+    print("Stored:", inc["incident_number"])
 
 
 # SIMILARITY
@@ -130,7 +130,7 @@ def agent_mode(message):
         ]
     )
 
-    return response.choices[0].message.content   # ✅ return string
+    return response.choices[0].message.content   # return string
 
 
 # PROMPT
@@ -219,7 +219,7 @@ def handle_user(user_id, query):
         }
 
         store_memory(inc)
-        print("✅ New incident stored")
+        print(" New incident stored")
 
     return Prompt_archestration(user_id, query)
 
