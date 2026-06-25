@@ -66,7 +66,7 @@ def store_memory(inc):
     })
 
     save_memory(data)
-    print("✅ Stored:", text)
+    print(" Stored:", text)
     return
 inc ={}
 inc["user_id"] = "axv523p"
